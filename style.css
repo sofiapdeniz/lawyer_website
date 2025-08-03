@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fff;
+  color: #000;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #111;
+  color: #fff;
+  padding: 20px;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+.logo span {
+  color: red;
+}
+
+.header-icons img {
+  width: 24px;
+  margin: 0 8px;
+}
+
+.auth-buttons .btn {
+  margin-left: 10px;
+  padding: 8px 16px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.cadastre {
+  background: red;
+  color: white;
+}
+
+.login {
+  background: white;
+  color: red;
+}
+
+.intro {
+  background: #000;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.highlight {
+  color: red;
+}
+
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 40px 20px;
+  background: #f9f9f9;
+}
+
+.service-card {
+  flex: 1 1 200px;
+  max-width: 250px;
+  text-align: center;
+  margin: 20px;
+}
+
+.service-card img {
+  width: 48px;
+  margin-bottom: 10px;
+}
+
+.service-card h3 {
+  color: red;
+  margin-bottom: 10px;
+}
+
+.quote {
+  padding: 40px 20px;
+  text-align: center;
+  font-size: 18px;
+  color: red;
+  background: #eee;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  background: #444;
+  color: white;
+  padding: 20px;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.footer-item {
+  margin: 10px;
+}
