@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: "Arial Unicode MS", Arial, sans-serif;;
   background: #fff;
   color: #000;
 }
@@ -11,7 +11,7 @@ body {
   align-items: center;
   background: #111;
   color: #fff;
-  padding: 20px;
+  padding: 10px;
 }
 
 .logo {
@@ -21,42 +21,36 @@ body {
 }
 
 .logo span {
-  color: red;
+  color: rgb(206, 2, 2);
 }
 
 .header-icons img {
-  width: 24px;
+  width: 50px;
   margin: 0 8px;
-}
-
-.auth-buttons .btn {
-  margin-left: 10px;
-  padding: 8px 16px;
-  border: none;
-  font-weight: bold;
-  cursor: pointer;
-  border-radius: 20px;
-}
-
-.cadastre {
-  background: red;
-  color: white;
-}
-
-.login {
-  background: white;
-  color: red;
 }
 
 .intro {
   background: #000;
+  border-bottom-left-radius: 50px;
   color: white;
   padding: 40px 20px;
-  text-align: center;
+  text-align: left;
+}
+
+.intro h1 {
+  font-size: 50px;
+  margin-bottom: -40px;
+}
+
+.intro p {
+  font-size: 20px;
+  color:  rgb(206, 2, 2);
+  margin-bottom: 20px;
+  margin-top: 50px;
 }
 
 .highlight {
-  color: red;
+  color:  rgb(206, 2, 2);
 }
 
 .services {
@@ -75,20 +69,27 @@ body {
 }
 
 .service-card img {
-  width: 48px;
+  width: 120px;
   margin-bottom: 10px;
 }
 
 .service-card h3 {
-  color: red;
-  margin-bottom: 10px;
+  color: rgb(206, 2, 2);
+  font-size: 26px;
+  margin-bottom: -10px;
+}
+
+.service-card p {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  margin-top: 10px;
 }
 
 .quote {
-  padding: 40px 20px;
+  padding: 200px 100px;
   text-align: center;
-  font-size: 18px;
-  color: red;
+  font-size: 30px;
+  color: rgb(206, 2, 2);
   background: #eee;
 }
 
@@ -104,4 +105,13 @@ body {
 
 .footer-item {
   margin: 10px;
+}
+
+.footer-item strong {
+  font-size: 20px;
+}
+
+.footer-item img {
+  width: 35px;
+  margin-top: -10px;
 }
