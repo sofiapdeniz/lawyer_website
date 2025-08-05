@@ -1,6 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   margin: 0;
-  font-family: "Arial Unicode MS", Arial, sans-serif;;
+  font-family: "Arial Unicode MS", Arial, sans-serif;
   background: #fff;
   color: #000;
 }
@@ -12,6 +17,19 @@ body {
   background: #111;
   color: #fff;
   padding: 10px;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  position: absolute;
+  z-index: 1;
+  margin: 10rem 1rem;
 }
 
 .logo {
@@ -34,17 +52,35 @@ body {
   margin: 1 20px;
 }
 
-.intro {
-  background: #000;
-  border-bottom-left-radius: 50px;
+.imagefundo {
+  filter: brightness(0.4);
+  border-radius: 0px 0px 0px 5rem;
+  width: 100%;
+  margin-top: -260px;
+}
+
+.h1 {
   color: white;
-  padding: 40px 50px;
-  text-align: left;
+  padding-top: 110px;
+  padding-left: 1rem;
+  font-size: 40px;
+}
+
+.highlight {
+  color:rgb(206, 2, 2);
+  padding-left: 1rem;
+  font-size: 40px;
+}
+
+.p {
+  color: white;
+  padding-left: 1rem;
+  font-size: 20px;
 }
 
 .intro h1 {
   font-size: 50px;
-  margin-bottom: -40px;
+  margin-bottom: -0px;
 }
 
 .intro p {
